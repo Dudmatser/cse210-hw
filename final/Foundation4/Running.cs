@@ -8,6 +8,8 @@ public class Running : Activity
     {
 
     }
+//Speed (mph or kph) = (distance / minutes) * 60
+//Pace (min per mile or min per km)= minutes / distance
 
     public Running(float distance, int year, int month, int day, float lenght): base(year, month, day, lenght)
     {

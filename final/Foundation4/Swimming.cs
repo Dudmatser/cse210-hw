@@ -14,6 +14,8 @@ public class Swimming : Activity
         _laps = laps;
     }
 
+    //Distance (km) = swimming laps * 50 / 1000
+
     public override float GetDistance()
     {
         return _laps * 50 / 1000;
